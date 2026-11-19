@@ -45,8 +45,8 @@
       "tag": "👽 Anonymous L 🚀",
       "outbounds": [
         "👽 Anonymous L 🌐",
-        "🇳🇱 Netherlands · Amsterdam · HY2",
         "🇩🇪 Germany · Frankfurt · SS",
+        "🇳🇱 Netherlands · Amsterdam · HY2",
         "🇩🇪 Germany · Frankfurt · VLESS",
         "🇩🇪 Germany · Frankfurt · SS #2"
       ],
@@ -56,8 +56,8 @@
       "type": "urltest",
       "tag": "👽 Anonymous L 🌐",
       "outbounds": [
-        "🇳🇱 Netherlands · Amsterdam · HY2",
         "🇩🇪 Germany · Frankfurt · SS",
+        "🇳🇱 Netherlands · Amsterdam · HY2",
         "🇩🇪 Germany · Frankfurt · VLESS",
         "🇩🇪 Germany · Frankfurt · SS #2"
       ],
@@ -66,41 +66,40 @@
       "tolerance": 50
     },
     {
-      "type": "hysteria2",
-      "tag": "🇳🇱 Netherlands · Amsterdam · HY2",
-      "server": "172.239.237.198",
-      "server_port": 8443,
-      "password": "7776ddcc289ff734f39c00e2dbc3c34c703bd898725364f10a597539b8187c3d",
-      "tls": {
-        "enabled": true,
-        "server_name": "api.push.apple.com",
-        "certificate": [
-          "-----BEGIN CERTIFICATE-----",
-          "MIIBgDCCASagAwIBAgIQWpYlxmlsD+eiALHGVnTL1TAKBggqhkjOPQQDAjAUMRIw",
-          "EAYDVQQDEwlidXRhbm9uZXMwHhcNMjYwNzE1MDQyMzAxWhcNMzYwNzEyMDQyMzAx",
-          "WjAUMRIwEAYDVQQDEwlidXRhbm9uZXMwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNC",
-          "AARUQW6iawBS8RlmiZPCXq5MXFzpkUl241T6uqPOmVdXyjBt5abjQVPpk84jbaNM",
-          "d8MhP8DAfBLsw8KXL6GxLOjPo1owWDAOBgNVHQ8BAf8EBAMCBaAwEwYDVR0lBAww",
-          "CgYIKwYBBQUHAwEwDAYDVR0TAQH/BAIwADAjBgNVHREEHDAaghJhcGkucHVzaC5h",
-          "cHBsZS5jb22HBKzv7cYwCgYIKoZIzj0EAwIDSAAwRQIgNSvwRsNbWLoQ7gAOlWx+",
-          "kNlgXpoMtDbUNI4FnpddnEkCIQDyTUoqX0xN6ahZThVkZyN098c2VIfV4x9NL/iw",
-          "nkebhQ==",
-          "-----END CERTIFICATE-----"
-        ]
-      }
-    },
-    {
       "type": "shadowsocks",
       "tag": "🇩🇪 Germany · Frankfurt · SS",
-      "server": "8.220.83.245",
+      "server": "3.121.71.212",
       "server_port": 443,
       "method": "2022-blake3-chacha20-poly1305",
       "password": "8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y="
     },
     {
+      "type": "hysteria2",
+      "tag": "🇳🇱 Netherlands · Amsterdam · HY2",
+      "server": "172.239.237.82",
+      "server_port": 8443,
+      "password": "91986884b997637142d8290c103996e9dd1d241e77d5f65b9906c885bff002fd",
+      "tls": {
+        "enabled": true,
+        "server_name": "api.push.apple.com",
+        "certificate": [
+          "-----BEGIN CERTIFICATE-----",
+          "MIIBezCCASGgAwIBAgIRAPEhhm2VLADq6f3rm1A7i4YwCgYIKoZIzj0EAwIwETEP",
+          "MA0GA1UEAxMGc3RlbGVzMB4XDTI2MDYyMzA3MjkyMVoXDTM4MDYyMDA3MjkyMVow",
+          "ETEPMA0GA1UEAxMGc3RlbGVzMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEgvwM",
+          "xlXG108PZCM6x7DUY7e1lG7hjRD3Se3T+c1E2TOoGOQ/6jkupxsdUfHkWG6w0KnI",
+          "wvhjd9rD/f1FcM7aRKNaMFgwDgYDVR0PAQH/BAQDAgWgMBMGA1UdJQQMMAoGCCsG",
+          "AQUFBwMBMAwGA1UdEwEB/wQCMAAwIwYDVR0RBBwwGoISYXBpLnB1c2guYXBwbGUu",
+          "Y29thwSs7+1SMAoGCCqGSM49BAMCA0gAMEUCIQCDp34aBnBfJsI9/vE1ZWbWLHa3",
+          "9/xvvcGmtegomeHYwwIgFqIHiaPACtfGci7Fck2olc2/zYNzEjTd+lY9Wldtk4M=",
+          "-----END CERTIFICATE-----"
+        ]
+      }
+    },
+    {
       "type": "vless",
       "tag": "🇩🇪 Germany · Frankfurt · VLESS",
-      "server": "3.251.85.30",
+      "server": "34.247.196.190",
       "server_port": 443,
       "uuid": "fad6c240-14d0-47ce-9264-21c5f18689c1",
       "flow": "xtls-rprx-vision",
@@ -120,7 +119,7 @@
     {
       "type": "shadowsocks",
       "tag": "🇩🇪 Germany · Frankfurt · SS #2",
-      "server": "16.60.112.37",
+      "server": "18.171.204.165",
       "server_port": 443,
       "method": "2022-blake3-chacha20-poly1305",
       "password": "Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4="
